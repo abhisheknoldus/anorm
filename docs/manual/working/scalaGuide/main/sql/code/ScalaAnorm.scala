@@ -1,4 +1,4 @@
-package scalaguide.sql.anorm
+package scalaGuide.main.sql
 
 import org.specs2.mutable.Specification
 import play.api.test._
@@ -10,11 +10,15 @@ object ScalaAnorm extends Specification {
   "Anorm" should {
     "be usable in play" in new WithApplication(FakeApplication(additionalConfiguration = inMemoryDatabase())) {
       //#playdb
+      import play.api.db.Database
       import anorm._
-      import play.api.db.DB
+      import com.google.inject.Inject
 
-      DB.withConnection { implicit c =>
-        val result: Boolean = SQL("Select 1").execute()
+
+      class PlayAnorm @Inject () (db: Database)  {
+        db.withConnection { implicit connection =>
+          val result: Boolean = SQL("Select 1").execute()
+        }
       }
       //#playdb
       ok
