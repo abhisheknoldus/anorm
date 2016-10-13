@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/anorm.iml" filepath="$PROJECT_DIR$/.idea/modules/anorm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/anorm-akka.iml" filepath="$PROJECT_DIR$/.idea/modules/anorm-akka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/anorm-akka-build.iml" filepath="$PROJECT_DIR$/.idea/modules/anorm-akka-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/anorm-build.iml" filepath="$PROJECT_DIR$/.idea/modules/anorm-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/anorm-iteratee.iml" filepath="$PROJECT_DIR$/.idea/modules/anorm-iteratee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/anorm-iteratee-build.iml" filepath="$PROJECT_DIR$/.idea/modules/anorm-iteratee-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/anorm-parent.iml" filepath="$PROJECT_DIR$/.idea/modules/anorm-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/anorm-parent-build.iml" filepath="$PROJECT_DIR$/.idea/modules/anorm-parent-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/anorm-tokenizer.iml" filepath="$PROJECT_DIR$/.idea/modules/anorm-tokenizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/anorm-tokenizer-build.iml" filepath="$PROJECT_DIR$/.idea/modules/anorm-tokenizer-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/docs.iml" filepath="$PROJECT_DIR$/.idea/modules/docs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/docs-build.iml" filepath="$PROJECT_DIR$/.idea/modules/docs-build.iml" />
+    </modules>
+  </component>
+</project>
